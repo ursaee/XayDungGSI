@@ -5,12 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_URL: Link ROM
+  ROM_URL: https://mega.nz/file/EENVgQbD#nbOUWYSpQl-6ztb_BNT7ySKGvxFw9AdIv6fOimPr-Dk
   ROM_NAME: Generic
   BUILD_AB: true
   BUILD_Aonly: false
   ROM_AONLY: ROM_A.7z
-  ROM_AB: ROM_AB.7z
+  ROM_AB: ROG_AB.7z
 
 jobs:
   build:
